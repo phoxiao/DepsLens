@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "KnowYourDependencies.helloWorld",
-        "title": "Hello World"
+        "command": "KnowYourDependencies.showDependencies",
+        "title": "Show Dependencies Info"
       }
     ]
   },
