@@ -1,7 +1,7 @@
 {
-  "name": "KnowYourDependencies",
-  "displayName": "know-your-deps",
-  "description": "One key to know your all dependencies!",
+  "name": "depslens",
+  "displayName": "deps-lens",
+  "description": "One key to know your all dependencies info in your package.json!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "KnowYourDependencies.showDependencies",
+        "command": "DepsLens.showDependencies",
         "title": "Show Dependencies Info"
       }
     ]
